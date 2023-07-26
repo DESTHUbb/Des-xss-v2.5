@@ -3,7 +3,8 @@
  </div>
 
 <div align="center">
-A powerful XSS scanner made in python 3.7<br/>
+This version is an updated improvement of the previous outdated Des-XSS scanner, thanks to python 3.7 which introduced the following improved features;
+ <br/>
 </div>
 
 ## Installing 
