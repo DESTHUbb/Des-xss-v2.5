@@ -29,13 +29,6 @@ Advanced usage:
 
 ## Main features
 
-* crawling all links on a website ( crawler engine )
-* POST and GET forms are supported
-* many settings that can be customized
-* Advanced error handling
-* Multiprocessing support.✔️
-* ETC....
-
 
 ## Screenshot
 
