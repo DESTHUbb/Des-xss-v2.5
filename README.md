@@ -6,7 +6,8 @@
 <div align="center">
 This version is an updated improvement of the previous outdated Des-XSS scanner, thanks to python 3.7 which introduced the following improved features;
  <br/>
- 
+ They include syntax improvements, new built-ins, exception handling improvements, speed and efficiency improvements, and optional static typing.
+
 </div>
 
 ## Installing 
