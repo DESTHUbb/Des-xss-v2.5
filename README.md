@@ -20,13 +20,11 @@ Commands:
 Basic usage:
 
 ```bash
-python3 pwnxss.py -u http://testphp.vulnweb.com
 ```
 <br/>
 Advanced usage:
 
 ```bash
-python3 pwnxss.py --help
 ```
 
 ## Main features
