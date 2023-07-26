@@ -1,6 +1,7 @@
 <div align="center">
-<img  align="center" alt="Rafa-Csharp" height="350" width="450" src="https://github.com/DESTHUbb/Des-xss-/assets/90658763/ae115237-2be2-4869-a4c2-5ea0e88ab525)">
+<img  align="center" alt="Rafa-Csharp" height="350" width="450" src="https://github.com/DESTHUbb/Des-xss-v2.5/assets/90658763/5d508d21-a2b9-4976-9d3c-28a4e5112a44)">
  </div>
+ 
 
 <div align="center">
 This version is an updated improvement of the previous outdated Des-XSS scanner, thanks to python 3.7 which introduced the following improved features;
