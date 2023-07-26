@@ -1,7 +1,10 @@
-<p align="center">   
- <img src="images/logo.png" height="200"><br/>
-A powerful XSS scanner made in python 3.7<br/>
+<div align="center">
+<img  align="center" alt="Rafa-Csharp" height="350" width="450" src="https://github.com/DESTHUbb/Des-xss-/assets/90658763/ae115237-2be2-4869-a4c2-5ea0e88ab525)">
+ </div>
 
+<div align="center">
+A powerful XSS scanner made in python 3.7<br/>
+</div>
 
 ## Installing 
 
