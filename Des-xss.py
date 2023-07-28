@@ -7,3 +7,5 @@ from random import randint
 from lib.crawler.crawler import *
 
 def check(getopt):
+  	payload=int(getopt.payload_level)
+
