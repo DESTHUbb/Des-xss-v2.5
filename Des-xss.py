@@ -8,4 +8,5 @@ from lib.crawler.crawler import *
 
 def check(getopt):
   	payload=int(getopt.payload_level)
+	  if payload > 6 and getopt.payload is None:
 
