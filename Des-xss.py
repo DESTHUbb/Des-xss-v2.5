@@ -15,6 +15,9 @@ def check(getopt):
 			Log.info("Write the XSS payload below")
 			payload=input("> "+W)
 
+	else:
+			payload=core.generate(randint(1,6))
+
 
 
 
