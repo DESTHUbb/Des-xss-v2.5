@@ -13,6 +13,8 @@ def check(getopt):
 		answer=input("> "+W) 
 		if answer.lower().strip() == "y":
 			Log.info("Write the XSS payload below")
+			payload=input("> "+W)
+
 
 
 
