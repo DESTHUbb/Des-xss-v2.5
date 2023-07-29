@@ -12,6 +12,8 @@ def check(getopt):
        		Log.info("Do you want use custom payload (Y/n)?")
 		answer=input("> "+W) 
 		if answer.lower().strip() == "y":
+			Log.info("Write the XSS payload below")
+
 
 
 
