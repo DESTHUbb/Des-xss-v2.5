@@ -17,6 +17,10 @@ def check(getopt):
 
 	else:
 			payload=core.generate(randint(1,6))
+	
+	else:
+		payload=core.generate(payload)
+
 
 
 
