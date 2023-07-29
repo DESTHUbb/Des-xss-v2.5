@@ -21,6 +21,9 @@ def check(getopt):
 	else:
 		payload=core.generate(payload)
 
+	return payload if getopt.payload is None else getopt.payload
+
+
 
 
 
