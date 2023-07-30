@@ -24,7 +24,9 @@ def check(getopt):
 
 def start():
 	parse=argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter,usage="Des-xss -u <target> [options]",epilog=epilog,add_help=False)
+
 	pos_opt=parse.add_argument_group("Options")
+	pos_opt.add_argument("--help",action="store_true",default=False,help="Show usage and help parameters")
 
 
 
