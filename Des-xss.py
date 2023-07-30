@@ -28,6 +28,7 @@ def start():
 	pos_opt=parse.add_argument_group("Options")
 	pos_opt.add_argument("--help",action="store_true",default=False,help="Show usage and help parameters")
 	pos_opt.add_argument("-u",metavar="",help="Target url (e.g. http://testphp.vulnweb.com)")
+	pos_opt.add_argument("--depth",metavar="",help="Depth web page to crawl. Default: 2",default=2)
 
 
 
