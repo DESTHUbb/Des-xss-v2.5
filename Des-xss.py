@@ -1,4 +1,3 @@
-
 import argparse
 from lib.helper.helper import *
 from lib.helper.Log import *
@@ -25,7 +24,7 @@ def check(getopt):
 
 def start():
 	parse=argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter,usage="Des-xss -u <target> [options]",epilog=epilog,add_help=False)
-
+	pos_opt=parse.add_argument_group("Options")
 
 
 
