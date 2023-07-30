@@ -23,6 +23,8 @@ def check(getopt):
 
 	return payload if getopt.payload is None else getopt.payload
 
+def start():
+	parse=argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter,usage="Des-xss -u <target> [options]",epilog=epilog,add_help=False)
 
 
 
