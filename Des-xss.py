@@ -46,6 +46,9 @@ def start():
 
 		crawler.crawl(getopt.u,int(getopt.depth),getopt.proxy,getopt.user_agent,check(getopt),getopt.method,getopt.cookie)
 
+	elif getopt.single:
+
+
 
 
 
