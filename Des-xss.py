@@ -41,6 +41,8 @@ def start():
 	getopt=parse.parse_args()
 	print(logo)
 	Log.info("Starting Des-xss...")
+	if getopt.u:
+		core.main(getopt.u,getopt.proxy,getopt.user_agent,check(getopt),getopt.cookie,getopt.method)
 
 
 
