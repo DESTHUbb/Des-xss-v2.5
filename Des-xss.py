@@ -39,6 +39,8 @@ def start():
 	pos_opt.add_argument("--cookie",help="Set cookie (e.g {'ID':'1094200543'})",default='''{"ID":"1094200543"}''',metavar="")
 
 	getopt=parse.parse_args()
+	print(logo)
+	Log.info("Starting Des-xss...")
 
 
 
