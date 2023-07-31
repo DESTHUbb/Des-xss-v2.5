@@ -38,6 +38,7 @@ def start():
 	pos_opt.add_argument("--about",action="store_true",help="Print information about PwnXSS tool")
 	pos_opt.add_argument("--cookie",help="Set cookie (e.g {'ID':'1094200543'})",default='''{"ID":"1094200543"}''',metavar="")
 
+	getopt=parse.parse_args()
 
 
 
