@@ -35,6 +35,8 @@ def start():
 	pos_opt.add_argument("--user-agent",metavar="",help="Request user agent (e.g. Chrome/2.1.1/...)",default=agent)
 	pos_opt.add_argument("--single",metavar="",help="Single scan. No crawling just one address")
 	pos_opt.add_argument("--proxy",default=None,metavar="",help="Set proxy (e.g. {'https':'https://10.10.1.10:1080'})")
+	pos_opt.add_argument("--about",action="store_true",help="Print information about PwnXSS tool")
+
 
 
 
