@@ -29,6 +29,8 @@ def start():
 	pos_opt.add_argument("--help",action="store_true",default=False,help="Show usage and help parameters")
 	pos_opt.add_argument("-u",metavar="",help="Target url (e.g. http://testphp.vulnweb.com)")
 	pos_opt.add_argument("--depth",metavar="",help="Depth web page to crawl. Default: 2",default=2)
+	pos_opt.add_argument("--payload-level",metavar="",help="Level for payload Generator, 7 for custom payload. {1...6}. Default: 6",default=6)
+
 
 
 
