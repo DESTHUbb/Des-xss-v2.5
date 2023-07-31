@@ -50,6 +50,7 @@ def start():
 		core.main(getopt.single,getopt.proxy,getopt.user_agent,check(getopt),getopt.cookie,getopt.method)
 
 	elif getopt.about:
+		
 
 
 
