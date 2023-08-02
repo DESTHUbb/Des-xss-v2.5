@@ -12,5 +12,8 @@ class crawler:
 	
 	@classmethod
 	def getLinks(self,base,proxy,headers,cookie):
+		lst=[]
+	
+		conn=session(proxy,headers,cookie)
 
 
