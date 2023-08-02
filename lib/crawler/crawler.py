@@ -7,4 +7,10 @@ from urllib.parse import urljoin
 from multiprocessing import Process
 
 class crawler:
+  
+	visited=[]
+	
+	@classmethod
+	def getLinks(self,base,proxy,headers,cookie):
+
 
