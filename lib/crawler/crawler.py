@@ -5,3 +5,6 @@ from lib.core import *
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from multiprocessing import Process
+
+class crawler:
+
