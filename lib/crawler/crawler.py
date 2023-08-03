@@ -15,5 +15,7 @@ class crawler:
 		lst=[]
 	
 		conn=session(proxy,headers,cookie)
+		text=conn.get(base).text
+		isi=BeautifulSoup(text,"html.parser")
 
 
