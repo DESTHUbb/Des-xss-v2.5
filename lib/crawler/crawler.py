@@ -21,6 +21,9 @@ class crawler:
 	for obj in isi.find_all("a",href=True):
 			url=obj["href"]
 
+	if urljoin(base,url) in self.visited:
+				continue
+
 
 
 
