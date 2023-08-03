@@ -18,4 +18,9 @@ class crawler:
 		text=conn.get(base).text
 		isi=BeautifulSoup(text,"html.parser")
 
+	for obj in isi.find_all("a",href=True):
+			url=obj["href"]
+
+
+
 
