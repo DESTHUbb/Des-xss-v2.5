@@ -24,6 +24,9 @@ class crawler:
 	if urljoin(base,url) in self.visited:
 				continue
 
+	 elif url.startswith("mailto:") or url.startswith("javascript:"):
+				continue
+
 
 
 
