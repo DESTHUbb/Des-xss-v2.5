@@ -26,7 +26,8 @@ class crawler:
 
 	 elif url.startswith("mailto:") or url.startswith("javascript:"):
 				continue
-
+	
+	elif url.startswith(base) or "://" not in url :
 
 
 
