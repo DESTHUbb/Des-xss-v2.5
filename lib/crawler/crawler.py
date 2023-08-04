@@ -29,6 +29,9 @@ class crawler:
 	
 	elif url.startswith(base) or "://" not in url :
 						lst.append(urljoin(base,url))
+						self.visited.append(urljoin(base,url))
+		return lst
+
 
 
 
