@@ -32,7 +32,8 @@ class crawler:
 						self.visited.append(urljoin(base,url))
 		return lst
 
-
+        @classmethod
+	def crawl(self,base,depth,proxy,headers,level,method,cookie):
 
 
 
