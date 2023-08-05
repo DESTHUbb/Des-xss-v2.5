@@ -36,6 +36,9 @@ class crawler:
 	def crawl(self,base,depth,proxy,headers,level,method,cookie):
 
 		urls=self.getLinks(base,proxy,headers,cookie)
+		
+	for url in urls:
+			if url.startswith("https://") or url.startswith("http://"):
 
 
 
