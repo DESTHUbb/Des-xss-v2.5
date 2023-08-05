@@ -43,6 +43,11 @@ class crawler:
 				p.start()
 				p.join()
 				if depth != 0:
+					
+		self.crawl(url,depth-1,base,proxy,level,method,cookie)
+					
+				else:
+					break	
 
 
 
