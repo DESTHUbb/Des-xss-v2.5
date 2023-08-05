@@ -40,6 +40,9 @@ class crawler:
 	for url in urls:
 			if url.startswith("https://") or url.startswith("http://"):
 				p=Process(target=core.main, args=(url,proxy,headers,level,cookie,method))
+				p.start()
+				p.join()
+				if depth != 0:
 
 
 
