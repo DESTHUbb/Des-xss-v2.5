@@ -35,5 +35,8 @@ class crawler:
         @classmethod
 	def crawl(self,base,depth,proxy,headers,level,method,cookie):
 
+		urls=self.getLinks(base,proxy,headers,cookie)
+
+
 
 
