@@ -6,3 +6,7 @@ from lib.helper.Log import *
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
+class core:
+	
+	@classmethod
+	def generate(self,eff):		
