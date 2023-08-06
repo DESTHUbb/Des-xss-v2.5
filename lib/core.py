@@ -25,6 +25,9 @@ class core:
 			
 		elif eff == 3:
 			return "<\script\> "+FUNCTION[randint(0,4)]+"<//script>"
+			
+		elif eff == 4:
+			return "<script>"+FUNCTION[randint(0,4)]+"<\script/>"
 		
 
 
