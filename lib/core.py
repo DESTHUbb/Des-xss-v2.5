@@ -17,3 +17,8 @@ class core:
 			"prompt(document.cookie)",
 			"console.log(5000/3000)"
 		]
+		if eff == 1:
+			return "<script/>"+FUNCTION[randint(0,4)]+"<\script\>"
+		
+
+
