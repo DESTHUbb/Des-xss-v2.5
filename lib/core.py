@@ -13,3 +13,7 @@ class core:
 		FUNCTION=[
 			"prompt(5000/200)",
 			"alert(6000/3000)",
+			"alert(document.cookie)",
+			"prompt(document.cookie)",
+			"console.log(5000/3000)"
+		]
