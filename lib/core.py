@@ -37,4 +37,6 @@ class core:
 			
         @classmethod
 	def post_method(self):
+		bsObj=BeautifulSoup(self.body,"html.parser")
+
 
