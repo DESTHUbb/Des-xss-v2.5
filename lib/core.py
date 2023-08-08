@@ -48,6 +48,7 @@ class core:
 				action=self.url
 
 			if form["method"].lower().strip() == "post":
+				Log.warning("Target have form with POST method: "+C+urljoin(self.url,action))
 
 
 
