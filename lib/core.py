@@ -47,6 +47,9 @@ class core:
 			except KeyError:
 				action=self.url
 
+			if form["method"].lower().strip() == "post":
+
+
 
 
 
