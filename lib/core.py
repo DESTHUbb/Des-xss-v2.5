@@ -40,5 +40,9 @@ class core:
 		bsObj=BeautifulSoup(self.body,"html.parser")
 		forms=bsObj.find_all("form",method=True)
 
+		for form in forms:
+			try:
+
+
 
 
