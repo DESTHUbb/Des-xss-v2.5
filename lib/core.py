@@ -34,5 +34,7 @@ class core:
 			
 		elif eff == 6:
 			return "<script>"+FUNCTION[randint(0,4)]+"</script>"
-
+			
+        @classmethod
+	def post_method(self):
 
