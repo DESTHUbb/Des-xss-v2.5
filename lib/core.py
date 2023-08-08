@@ -51,6 +51,9 @@ class core:
 				Log.warning("Target have form with POST method: "+C+urljoin(self.url,action))
 				Log.info("Collecting form input key.....")
 
+				keys={}
+				for key in form.find_all(["input","textarea"]):
+
 
 
 
