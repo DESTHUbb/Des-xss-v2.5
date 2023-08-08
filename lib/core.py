@@ -49,6 +49,8 @@ class core:
 
 			if form["method"].lower().strip() == "post":
 				Log.warning("Target have form with POST method: "+C+urljoin(self.url,action))
+				Log.info("Collecting form input key.....")
+
 
 
 
