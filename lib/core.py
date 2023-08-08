@@ -58,6 +58,11 @@ class core:
 						      Log.info("Form key name: "+G+key["name"]+N+" value: "+G+"<Submit Confirm>")
 						      keys.update({key["name"]:key["name"]})
 
+						else:
+							Log.info("Form key name: "+G+key["name"]+N+" value: "+G+self.payload)
+
+
+
 						
 
 
