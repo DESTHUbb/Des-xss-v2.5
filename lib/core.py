@@ -66,6 +66,8 @@ class core:
 						Log.info("Internal error: "+str(e))
 					
 					Log.info("Sending payload (POST) method...")
+					req=self.session.post(urljoin(self.url,action),data=keys)
+
 
 					
 
