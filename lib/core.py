@@ -67,6 +67,7 @@ class core:
 					
 					Log.info("Sending payload (POST) method...")
 					req=self.session.post(urljoin(self.url,action),data=keys)
+				        if self.payload in req.text:
 
 
 					
