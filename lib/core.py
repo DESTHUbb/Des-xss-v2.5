@@ -71,7 +71,7 @@ class core:
 						Log.high("Detected XSS (POST) at "+urljoin(self.url,req.url))
 						file = open("xss.txt", "a")
 						file.write(str(req.url)+"\n\n")
-
+						file.close()
 
 
 					
