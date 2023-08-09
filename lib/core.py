@@ -64,6 +64,10 @@ class core:
 
 						except Exception as e:
 						Log.info("Internal error: "+str(e))
+					
+					Log.info("Sending payload (POST) method...")
+
+					
 
 
 
