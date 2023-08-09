@@ -73,7 +73,9 @@ class core:
 						file.write(str(req.url)+"\n\n")
 						file.close()
 						Log.high("Post data: "+str(keys))
-
+						
+					else:
+					Log.info("Parameter page using (POST) payloads but not 100% yet...")
 					
 
 
