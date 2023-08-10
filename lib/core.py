@@ -96,7 +96,8 @@ class core:
 				keys={}
 				for key in form.find_all(["input","textarea"]):
 
-
+					try:
+						if key["type"] == "submit":
 
 						
 
