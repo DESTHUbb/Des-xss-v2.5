@@ -91,6 +91,7 @@ class core:
 				
 					if form["method"].lower().strip() == "get":
 				Log.warning("Target have form with GET method: "+C+urljoin(self.url,action))
+				Log.info("Collecting form input key.....")
 
 
 
