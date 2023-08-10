@@ -99,6 +99,8 @@ class core:
 					try:
 						if key["type"] == "submit":
 
+							Log.info("Form key name: "+G+key["name"]+N+" value: "+G+"<Submit Confirm>")
+
 						
 
 
