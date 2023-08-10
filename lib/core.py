@@ -85,7 +85,9 @@ class core:
 		for form in forms:
 			try:
 
-				
+				action=form["action"]
+			except KeyError:
+						
 
 
 
