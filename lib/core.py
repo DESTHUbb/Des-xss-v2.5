@@ -80,6 +80,8 @@ class core:
 	@classmethod
 	def get_method_form(self):
 		bsObj=BeautifulSoup(self.body,"html.parser")
+		forms=bsObj.find_all("form",method=True)
+
 
 					
 
