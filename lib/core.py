@@ -87,6 +87,8 @@ class core:
 
 				action=form["action"]
 			except KeyError:
+				action=self.url
+				
 						
 
 
