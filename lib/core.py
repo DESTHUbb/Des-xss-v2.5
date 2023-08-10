@@ -106,7 +106,7 @@ class core:
 							Log.info("Form key name: "+G+key["name"]+N+" value: "+G+self.payload)
 							keys.update({key["name"]:self.payload})
 
-						
+				except Exception as e:		
 
 
 					
