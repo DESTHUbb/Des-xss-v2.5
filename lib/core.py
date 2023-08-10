@@ -85,8 +85,7 @@ class core:
 		for form in forms:
 			try:
 
-
-					
+				
 
 
 
