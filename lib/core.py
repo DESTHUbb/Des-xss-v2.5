@@ -76,6 +76,9 @@ class core:
 						
 					else:
 					Log.info("Parameter page using (POST) payloads but not 100% yet...")
+
+	@classmethod
+	def get_method_form(self):
 					
 
 
