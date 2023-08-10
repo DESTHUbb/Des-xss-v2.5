@@ -90,7 +90,8 @@ class core:
 				action=self.url
 				
 					if form["method"].lower().strip() == "get":
-				
+				Log.warning("Target have form with GET method: "+C+urljoin(self.url,action))
+
 
 
 
