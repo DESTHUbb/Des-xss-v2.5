@@ -79,6 +79,8 @@ class core:
 
 	@classmethod
 	def get_method_form(self):
+		bsObj=BeautifulSoup(self.body,"html.parser")
+
 					
 
 
