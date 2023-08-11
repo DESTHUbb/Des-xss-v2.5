@@ -15,5 +15,9 @@ agent = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWeb
 line="—————————————————" 
 #####################
 def session(proxies,headers,cookie):
-r=requests.Session()
+	r=requests.Session()
 	r.proxies=proxies
+	r.headers=headers
+	r.cookies.update(json.loads(cookie))
+	return r
+	
