@@ -20,4 +20,9 @@ def session(proxies,headers,cookie):
 	r.headers=headers
 	r.cookies.update(json.loads(cookie))
 	return r
+
+logo=G+""" ______  _______ _______     _     _ _______ _______
+ |     \ |______ |______ ___  \___/  |______ |______   %s
+ |_____/ |______ ______|     _/   \_ ______| ______|   %s
+<<<<<<< STARTING >>>>>>>
 	
