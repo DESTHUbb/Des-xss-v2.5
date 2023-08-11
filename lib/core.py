@@ -107,6 +107,8 @@ class core:
 							keys.update({key["name"]:self.payload})
 
 				except Exception as e:		
+					Log.info("Internal error: "+str(e))
+
 
 
 					
