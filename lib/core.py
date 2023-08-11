@@ -111,6 +111,7 @@ class core:
 
 			Log.info("Sending payload (GET) method...")
 			req=self.session.get(urljoin(self.url,action),params=keys)
+			if self.payload in req.text:
 
 
 
