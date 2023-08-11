@@ -30,3 +30,5 @@ logo=G+""" ______  _______ _______     _     _ _______ _______
 ##=======
 """%(R+"{v2.5 Final}"+G,underline+C+"https://github.com/DESTHUbb/Des-xss-v2.5"+N+G)
 		
+>>>>>>> branch 'master' of https://github.com/DESTHUbb/Des-xss-v2.5
+"""
