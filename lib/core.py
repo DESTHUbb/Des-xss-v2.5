@@ -112,6 +112,11 @@ class core:
 			Log.info("Sending payload (GET) method...")
 			req=self.session.get(urljoin(self.url,action),params=keys)
 			if self.payload in req.text:
+				
+				Log.high("Detected XSS (GET) at "+urljoin(self.url,req.url))
+				file = open("xss.txt", "a")
+
+
 
 
 
