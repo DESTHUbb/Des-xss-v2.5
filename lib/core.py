@@ -122,6 +122,9 @@ class core:
 			else:
 				Log.info("\033[0;35;47m Parameter page using (GET) payloads but not 100% yet...")
 
+	@classmethod
+	def get_method(self):
+
 
 
 
