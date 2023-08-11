@@ -118,6 +118,9 @@ class core:
 				file.write(str(req.url)+"\n\n")
 				file.close()
 				Log.high("GET data: "+str(keys))
+				
+			else:
+				Log.info("\033[0;35;47m Parameter page using (GET) payloads but not 100% yet...")
 
 
 
