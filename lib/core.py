@@ -117,6 +117,7 @@ class core:
 				file = open("xss.txt", "a")
 				file.write(str(req.url)+"\n\n")
 				file.close()
+				Log.high("GET data: "+str(keys))
 
 
 
