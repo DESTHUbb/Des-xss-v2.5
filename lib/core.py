@@ -110,6 +110,7 @@ class core:
 					Log.info("Internal error: "+str(e))
 
 			Log.info("Sending payload (GET) method...")
+			req=self.session.get(urljoin(self.url,action),params=keys)
 
 
 
