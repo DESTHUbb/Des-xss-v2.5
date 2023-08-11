@@ -115,6 +115,8 @@ class core:
 				
 				Log.high("Detected XSS (GET) at "+urljoin(self.url,req.url))
 				file = open("xss.txt", "a")
+				file.write(str(req.url)+"\n\n")
+
 
 
 
