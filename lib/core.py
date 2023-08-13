@@ -132,6 +132,7 @@ class core:
 			base=urljoin(self.url,a["href"])
 			query=urlparse(base).query
 			if query != "":
+				Log.warning("Found link with query: "+G+query+N+" Maybe a vuln XSS point")
 
 
 
