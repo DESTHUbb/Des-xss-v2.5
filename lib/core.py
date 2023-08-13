@@ -124,8 +124,7 @@ class core:
 
 	@classmethod
 	def get_method(self):
-
-
+		bsObj=BeautifulSoup(self.body,"html.parser")
 
 
 
