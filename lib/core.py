@@ -133,6 +133,9 @@ class core:
 			query=urlparse(base).query
 			if query != "":
 				Log.warning("Found link with query: "+G+query+N+" Maybe a vuln XSS point")
+				query_payload=query.replace(query[query.find("=")+1:len(query)],self.payload,1)
+				test=base.replace(query,query_payload,1)
+
 
 
 
