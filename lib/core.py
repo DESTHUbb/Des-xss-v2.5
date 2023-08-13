@@ -129,8 +129,9 @@ class core:
 		for a in links:
 		url=a["href"]
 		if url.startswith("http://") is False or url.startswith("https://") is False or url.startswith("mailto:") is False:
-				base=urljoin(self.url,a["href"])
-				query=urlparse(base).query
+			base=urljoin(self.url,a["href"])
+			query=urlparse(base).query
+			if query != "":
 
 
 
