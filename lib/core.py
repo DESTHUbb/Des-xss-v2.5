@@ -128,6 +128,8 @@ class core:
 		links=bsObj.find_all("a",href=True)
 		for a in links:
 		url=a["href"]
+		if url.startswith("http://") is False or url.startswith("https://") is False or url.startswith("mailto:") is False:
+
 
 
 
