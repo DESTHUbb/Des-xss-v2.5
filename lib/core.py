@@ -127,6 +127,7 @@ class core:
 		bsObj=BeautifulSoup(self.body,"html.parser")
 		links=bsObj.find_all("a",href=True)
 		for a in links:
+		url=a["href"]
 
 
 
