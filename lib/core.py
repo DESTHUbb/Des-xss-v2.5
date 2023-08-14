@@ -150,6 +150,7 @@ class core:
 							file.close()
 						
 						else:
+							Log.info("Parameter page using (GET) payloads but not 100% yet...")
 
 
 
