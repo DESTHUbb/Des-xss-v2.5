@@ -182,6 +182,8 @@ class core:
 						self.get_method_form()
 
 					elif method == 1:
+						self.post_method()
+
 
 				
 
