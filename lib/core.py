@@ -143,6 +143,7 @@ class core:
 
 					if not url.startswith("mailto:") and not url.startswith("tel:"):					
 						_respon=self.session.get(test,verify=False)
+						if self.payload in _respon.text or self.payload in self.session.get(query_all).text:
 
 
 
