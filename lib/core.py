@@ -141,6 +141,7 @@ class core:
 				Log.info("Query (GET) : "+test)
 				Log.info("Query (GET) : "+query_all)
 
+					if not url.startswith("mailto:") and not url.startswith("tel:"):					
 
 
 
