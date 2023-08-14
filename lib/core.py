@@ -172,6 +172,9 @@ class core:
 		
 						if ctr.status_code > 400:
 						       Log.info("Connection failed "+G+str(ctr.status_code))
+							return 
+						else:
+							Log.info("Connection estabilished "+G+str(ctr.status_code))
 
 
 
