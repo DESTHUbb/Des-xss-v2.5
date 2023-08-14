@@ -178,6 +178,10 @@ class core:
 
 						if method >= 2:
 						self.post_method()
+						self.get_method()
+
+
+				
 
 
 
