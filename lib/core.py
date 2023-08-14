@@ -184,6 +184,7 @@ class core:
 					elif method == 1:
 						self.post_method()
 
+					elif method == 0:
 
 				
 
