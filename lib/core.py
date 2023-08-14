@@ -168,6 +168,9 @@ class core:
 							self.body=ctr.text
 						except Exception as e:
 							Log.high("Internal error: "+str(e))
+							return
+		
+						if ctr.status_code > 400:
 
 
 
