@@ -147,8 +147,9 @@ class core:
 							Log.high("Detected XSS (GET) at "+_respon.url)
 							file = open("xss.txt", "a")
 							file.write(str(_respon.url)+"\n\n")
-
-
+							file.close()
+						
+						else:
 
 
 
