@@ -161,6 +161,7 @@ class core:
 						self.payload=payload
 						self.url=url
 
+						self.session=session(proxy,headers,cookie)
 
 
 
