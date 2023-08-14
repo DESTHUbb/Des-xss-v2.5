@@ -146,6 +146,7 @@ class core:
 						if self.payload in _respon.text or self.payload in self.session.get(query_all).text:
 							Log.high("Detected XSS (GET) at "+_respon.url)
 							file = open("xss.txt", "a")
+							file.write(str(_respon.url)+"\n\n")
 
 
 
