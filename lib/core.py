@@ -164,8 +164,10 @@ class core:
 						self.session=session(proxy,headers,cookie)
 						Log.info("Checking connection to: "+Y+url)	
 						try:
-							
+							ctr=self.session.get(url)		
 
+					
+		
 
 
 
