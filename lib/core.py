@@ -137,6 +137,7 @@ class core:
 				test=base.replace(query,query_payload,1)
 				
 				query_all=base.replace(query,urlencode({x: self.payload for x in parse_qs(query)}))
+				Log.info("Query (GET) : "+test)
 
 
 
