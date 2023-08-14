@@ -166,6 +166,8 @@ class core:
 						try:
 							ctr=self.session.get(url)	
 							self.body=ctr.text
+						except Exception as e:
+
 
 
 					
