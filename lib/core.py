@@ -186,7 +186,7 @@ class core:
 
 					elif method == 0:
 					     self.get_method()
-
+					     self.get_method_form()
 
 				
 
