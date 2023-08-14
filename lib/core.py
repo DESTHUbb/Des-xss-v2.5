@@ -185,6 +185,8 @@ class core:
 						self.post_method()
 
 					elif method == 0:
+					     self.get_method()
+
 
 				
 
