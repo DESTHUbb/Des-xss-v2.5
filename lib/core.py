@@ -171,6 +171,7 @@ class core:
 							return
 		
 						if ctr.status_code > 400:
+						       Log.info("Connection failed "+G+str(ctr.status_code))
 
 
 
