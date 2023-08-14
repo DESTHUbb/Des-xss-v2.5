@@ -151,6 +151,9 @@ class core:
 						
 						else:
 							Log.info("Parameter page using (GET) payloads but not 100% yet...")
+					else:
+						Log.info("URL is not an HTTP url, ignoring")
+	
 
 
 
