@@ -167,6 +167,8 @@ class core:
 							ctr=self.session.get(url)	
 							self.body=ctr.text
 						except Exception as e:
+							Log.high("Internal error: "+str(e))
+
 
 
 
