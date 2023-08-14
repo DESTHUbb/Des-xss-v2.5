@@ -162,6 +162,8 @@ class core:
 						self.url=url
 
 						self.session=session(proxy,headers,cookie)
+						Log.info("Checking connection to: "+Y+url)	
+						try:
 
 
 
