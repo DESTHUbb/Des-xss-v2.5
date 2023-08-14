@@ -177,6 +177,8 @@ class core:
 							Log.info("Connection estabilished "+G+str(ctr.status_code))
 
 						if method >= 2:
+						self.post_method()
+
 
 
 
