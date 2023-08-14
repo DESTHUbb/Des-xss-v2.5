@@ -153,7 +153,13 @@ class core:
 							Log.info("Parameter page using (GET) payloads but not 100% yet...")
 					else:
 						Log.info("URL is not an HTTP url, ignoring")
-	
+
+			@classmethod
+			def main(self,url,proxy,headers,payload,cookie,method=2):
+
+						print(W+"*"*15)
+
+
 
 
 
