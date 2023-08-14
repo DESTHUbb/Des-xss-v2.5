@@ -170,17 +170,18 @@ class core:
 							Log.high("Internal error: "+str(e))
 							return
 		
-						if ctr.status_code > 400:
+					if ctr.status_code > 400:
 						       Log.info("Connection failed "+G+str(ctr.status_code))
 							return 
 						else:
 							Log.info("Connection estabilished "+G+str(ctr.status_code))
 
-						if method >= 2:
+					if method >= 2:
 						self.post_method()
 						self.get_method()
 						self.get_method_form()
 
+					elif method == 1:
 
 				
 
