@@ -158,6 +158,10 @@ class core:
 			def main(self,url,proxy,headers,payload,cookie,method=2):
 
 						print(W+"*"*15)
+						self.payload=payload
+						self.url=url
+
+
 
 
 
