@@ -142,6 +142,7 @@ class core:
 				Log.info("Query (GET) : "+query_all)
 
 					if not url.startswith("mailto:") and not url.startswith("tel:"):					
+						_respon=self.session.get(test,verify=False)
 
 
 
