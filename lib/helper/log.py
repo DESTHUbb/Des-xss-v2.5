@@ -4,4 +4,6 @@ class Log:
 
 @classmethod
 	def info(self,text):
+		 print("["+Y+datetime.now().strftime("%H:%M:%S")+N+"] ["+G+"INFO"+N+"] "+text)
+
     
