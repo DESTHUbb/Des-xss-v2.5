@@ -12,5 +12,6 @@ class Log:
 		
 @classmethod
 	def high(self,text):
+ 		print("["+Y+datetime.now().strftime("%H:%M:%S")+N+"] ["+R+"CRITICAL"+N+"] "+text)
 
     
