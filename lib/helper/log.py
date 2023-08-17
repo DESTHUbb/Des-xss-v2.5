@@ -6,4 +6,8 @@ class Log:
 	def info(self,text):
 		 print("["+Y+datetime.now().strftime("%H:%M:%S")+N+"] ["+G+"INFO"+N+"] "+text)
 
+@classmethod
+	def warning(self,text):
+		
+
     
