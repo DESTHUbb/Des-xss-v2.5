@@ -9,6 +9,8 @@ class Log:
 @classmethod
 	def warning(self,text):
 		print("["+Y+datetime.now().strftime("%H:%M:%S")+N+"] ["+Y+"WARNING"+N+"] "+text)
-
+		
+@classmethod
+	def high(self,text):
 
     
