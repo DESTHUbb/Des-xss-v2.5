@@ -61,7 +61,11 @@ def start():
  	****************
 	"""+epilog)
 		else:
- 
+ 		
+			parse.print_help()
+		
+if __name__=="__main__":
+	start()
 
 
 
