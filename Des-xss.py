@@ -51,6 +51,14 @@ def start():
 
 	elif getopt.about:
 		
+		print("""
+	***************
+	Project: Des-xss
+	License: MIT
+	Author: Security Executions Code
+	Last updates: 2023 Aug 19
+	Note: Take your own RISK
+ 
 
 
 
